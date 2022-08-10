@@ -1,0 +1,414 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: Century Gothic ;
+ 
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+.top{
+    background-color: blue;
+    font-size: 1.8rem;
+    height: 3.5rem;
+    width: 100%;
+    color: white;
+}
+.top-left{
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.top-right{
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.top-right i{
+    margin-right: 2rem;
+}
+.mail{
+    margin-right: 10px;
+    color: white;
+}
+.back{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.589),rgba(0,0,0,0.5)),url('images/back.jpg');
+    background-repeat: no-repeat;
+    height: 25%;
+
+    background-position-y: 0px,-400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.back div{
+    text-align: center;
+}
+.back div a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+  
+}
+.top-left h6{
+    font-weight: lighter;
+    margin-right: 3rem;
+}
+.logo{
+    color: white;
+    margin-right: 1rem;
+    margin-left: 10rem;
+}
+.logo1{
+    width: 13rem;
+    height: auto;
+    margin-left: 5rem;
+    display: inline-block;
+}
+.navbar {
+    background: white;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+}
+.contents{
+    margin-left: 10rem;
+    display: flex;
+    width: 50rem;
+    justify-content: space-around;
+}
+.contents a{
+    
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+}
+.contents a:hover{
+    color: blue;
+}
+.options{
+    margin-right: 8rem;
+    font-size: 1.5rem;
+}
+.options i{
+    margin-left: 1rem;
+}
+.map{
+    width: 100vw;
+    height: auto;
+}
+.info{
+    width: 100vw;
+    margin : auto;
+    text-align: center;
+    padding-top: 9rem;
+}
+h1{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1rem;
+    padding: 10px;
+
+}
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-around;
+}
+.rows{
+    margin-top: 5%;
+    width: 95%;
+    display:flex;
+    justify-content: space-around;
+
+}
+.arrow{
+    float: right;
+    
+    background-color: blue;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.contact i{
+    background-color: blue;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.talk i{
+    background-color: blue;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+display: flex;
+width: 100vw;
+margin-top: 2rem;
+justify-content: space-around;
+    
+}
+/* 
+.box1{
+    position: absolute;
+    left: 85px;
+    border : 1px solid gray;
+   align-items: center;
+   border-radius: 10px;
+   padding: 4px;
+    margin: 5px;
+    width: 230px;
+    height: 200px;
+    display: inline-block;
+}
+.box2{
+    position: absolute;
+    left: 355px;
+    border : 1px solid gray;
+   align-items: center;
+   border-radius: 10px;
+   padding: 4px;
+    margin: 5px;
+    width: 240px;
+    height: 200px;
+    display: inline-block;
+} */
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    display: inline-block;
+  
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50;
+    background-color:#0E26B1;
+    min-width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.para{
+    line-height: 2rem;
+}
+.col{
+    width: 70rem;
+}
+.no p{
+   font-size: 1.2rem;
+}
+.mails p{
+    font-size: 1.2rem;
+}
+ /* .right{
+    flex: 1;
+}  */
+.items{
+    padding-bottom: 1.5rem;
+}
+.items .field {
+    width: 100%;
+    height: 5rem;
+}
+.items .fields{
+    width: 100%;
+    height: 20rem;
+
+}
+.btn{
+    background-color: blue;
+    color: white;
+    width: 49rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+.location i{
+    background-color: blue;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.opening i{
+    background-color: blue;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+box3{
+    position: absolute;
+    top: 150rem;
+    left: 8.5rem;
+    border : 0.1rem solid gray;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.4rem;
+     margin: 0.5rem;
+     width: 23rem;
+     height: 20rem;
+     display: inline-block;
+}
+box4{
+    position: absolute;
+    top: 150rem;
+    left: 35.5rem;
+    border : 0.1rem solid gray;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.4rem;
+     margin: 0.5rem;
+     width: 23rem;
+     height: 20rem;
+     display: inline-block;
+}
+.left{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+}
+.navbar{
+    width: 100vw;
+}
+.box{
+    margin: 5px;
+    border : 0.1rem solid gray;
+   border-radius: 1rem;
+   padding: 0.4rem;
+    width: 23rem;
+    height: 20rem;
+}
+.bottom img{
+    width: 100%;
+    height: auto;
+}
+.bottom{
+    margin-top: 3%;
+}
+.fa-bars{
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    display: none;
+}
+@media(max-width : 940px){
+    .top{
+        display: none;
+    }
+    .options{
+        display: none;
+    }
+    .new{
+        flex-direction: column;
+    }
+    .left{
+        justify-content: center;
+    }
+    .field{
+        width: 10%;
+    }
+    .fields{
+        width: 94%;
+    }
+    .btn{
+        width: 94%;
+    }
+    .arrow{
+        display: none;
+    }
+}
+@media (max-width:700px) {
+    .contents{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+@media (max-width:520px) {
+    .left{
+        flex-direction: column;
+    }
+}
+@media (min-width:1225px) {
+    .left{
+        width: 40%;
+    }
+}
+/* 
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+} */

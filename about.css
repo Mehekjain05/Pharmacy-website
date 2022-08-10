@@ -1,0 +1,310 @@
+
+body{
+    overflow-x: hidden;
+}
+.top1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    vertical-align: middle;
+}
+.logo1{
+    width: 20%;
+    height: 5%;
+    margin-left: 5%;
+}
+.top-left1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 20%;
+    vertical-align: middle;
+}
+
+.top-left1 .fas {
+margin-right: 1%;
+color: blue;
+margin-top: 1.0%;
+margin-left: 1.5%;
+
+}
+.top-left1 p{
+    margin-right: 1%;
+}
+.top-left1 h5{
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.dropdown {
+    display: inline-block;
+  
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50;
+    background-color:#0E26B1;
+    min-width: 100vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    font-weight: bolder;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.fa-bars{
+    margin-right: 3rem;
+    font-size: 1.8rem;
+    display: none;
+}
+.contents{
+    margin-left: 30%;
+}
+.lt a{
+    text-decoration: none;
+    margin: 3%;
+    color: black;
+}
+.contents a:hover{
+    color: blue;
+}
+@media screen and (max-width:1372px) {
+    .top-left1{
+        display: none;
+    }
+}
+@media screen and (max-width:1052px) {
+    .contents{
+        margin-left: 12%;
+    }
+}
+@media screen and (max-width:635px) {
+    .lt{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+.back{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.589),rgba(0,0,0,0.5)),url('images/back.jpg');
+    background-repeat: no-repeat;
+    height: 50%;
+
+    background-position-y: 0px,-400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.back div{
+    margin-top: 2%;
+    text-align: center;
+}
+.back div a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+  
+}
+.about-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/hospital.jpg) no-repeat left;
+    background-size: 80%;
+    overflow: hidden;
+    padding: 200px 0;
+    margin-left: 10%;
+}
+.inner-contain{
+    width: 40%;
+    float: right;
+    background-color: white;
+    padding: 90px;
+    margin-left: 20%;
+}
+.inner-contain h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 30px;
+}
+.text-l{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.btn-l{
+    border: none;
+    padding: 8px 15px;
+    background-color: #0E26B1;
+    color: white;
+}
+.btn-l:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:1200px) {
+    .inner-contain{
+        padding: 60px;
+    }
+    .inner-contain {
+        width: 60%;
+        float: right;
+        background-color: white;
+        padding: 90px;
+        margin-left: 20%;
+    }
+    .about-contain{
+        padding: 180px 0;
+        background-size: 90%;
+    }
+}
+@media screen and (max-width:1018px) {
+    .inner-contain{
+        padding: 50px;
+        margin-left: 10%;
+    }
+    .about-contain{
+        padding: 150px 0;
+        background-size: 100%;
+    }
+    
+}
+@media screen and (max-width:1000px) {
+    .about-contain{
+        background-size: 100%; 
+        padding: 100px 40;
+        margin-left: 0%;
+    }
+    .inner-contain h1{
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-weight: 30px;
+    }
+    .about-contain{
+        padding: 100px 0;
+        background-size: 100%;
+    }
+}
+@media screen and (max-width:740px) {
+    .inner-contain{
+        padding: 30px;
+        width: 80%;
+        margin-left: 0%;
+    }
+    .about-contain{
+        padding: 100px 0;
+        background-size: 100%;
+    }
+    
+}
+@media screen and (max-width:740px) {
+    .inner-contain{
+        padding: 10px;
+        margin-left: 0%;
+    }
+    
+}
+@media screen and (max-width:580px) {
+    .inner-contain{
+        padding: 5px;
+        margin-left: 0%;
+    }
+    .about-contain{
+        background-color: lightblue;
+        margin-bottom: 0px;
+        background-image: none;
+    }
+}
+.hold{
+    color: black;
+    margin-top: 6%;
+    height: 40%;
+}
+.hold h1{
+    display: flex;
+    justify-content: center;
+}
+.hold p{
+    display: flex;
+    justify-content: center;
+
+}
+.container-fluid{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.container-fluid h2{
+    color: hotpink;
+    position: relative;
+}
+.accordion{
+    width: 100%;
+    padding: 0 10px;
+    border: 2px solid #0E26B1;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.accordion .icon{
+    margin:  0 0 0 0;
+    width: 40px;
+    font-size: 1.6rem;
+    color:darkcyan;
+    height: 40px;
+    border-radius: 50%;
+    transition: all .5s ease-in;
+}
+.accordion h5{
+    font-size: 22px;
+    margin: 0;
+    padding: 2px 0 0 0 ;
+    font-weight: normal;
+    color: #0E26B1;
+}
+
+.panel{
+    padding: 0 15px;
+    border-left: 1px solid #0E26B1;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .5s ease-in;
+}
+.active .icon{
+    color: white;
+}
+.hold-m{
+    width: 100%;
+    height: 30%;
+    margin-top: 6%;
+}
+.hold-m img{
+    width: 100%;
+}
